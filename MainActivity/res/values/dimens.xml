@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <dimen name="fragment_title_line_size">2dp</dimen>
+    <dimen name="fragment_title_line_size_negative">-2dp</dimen>
+    <dimen name="separadorTitulo">2dp</dimen>
+
+</resources>

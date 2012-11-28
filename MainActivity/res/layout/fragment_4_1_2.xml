@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/FragmentTitleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/FragmentTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Últimas tareas del paciente" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listaTareasPaciente"
+        android:layout_width="match_parent"
+        android:layout_height="275dp" >
+    </ListView>
+
+    <LinearLayout
+        style="@style/FragmentTitleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/FragmentTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Próxima tarea del paciente" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

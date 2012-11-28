@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Common Strings -->
+    
+    <string name="app_name">openet4mg</string>
+    <string name="title_section_fakeevents">Fake Events</string>
+    <string name="title_section_fragment">Fragment %d</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="ready">Ready</string>
+    
+    <!-- Group Strings -->
+    <string name="g1_str1">Cadena de texto de grupo 1</string>
+
+</resources>
